@@ -8,10 +8,10 @@ function Card(props) {
         {props.isImageRight ? (
           <>
             <div className="text-white text-5xl font-extrabold max-w-[640px] text-center md:mt-32 md:ml-10 lg:mt-64 lg:mr-10 xl:mt-72 xl:text-7xl">
-              {props.text}
+              {props.Heading}
               <br />
               <span className="text-white text-xl font-normal mt-7 block xl:text-2xl">
-                {props.text2}
+                {props.Detail_para}
               </span>
             </div>
             <img
@@ -28,10 +28,10 @@ function Card(props) {
               alt=""
             />
             <div className="text-white text-5xl font-extrabold max-w-[640px] text-center md:mt-10 md:ml-10 lg:mt-64 lg:mr-10 xl:mt-72 xl:text-7xl">
-              {props.text}
+              {props.Heading}
               <br />
               <span className="text-white text-xl font-normal mt-7 block xl:text-2xl">
-                {props.text2}
+                {props.Detail_para}
               </span>
             </div>
           </>

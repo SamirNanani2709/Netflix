@@ -55,25 +55,25 @@ export const Main = () => {
       <div>
         <Card
           image="./Images/Tv.png"
-          text="Enjoy on your TV"
-          text2="Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more."
+          Heading="Enjoy on your TV"
+          Detail_para="Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more."
         />
         <Card
           isImageRight={false}
           image="./Images/feature-2.png"
-          text="Download your shows to watch offline"
-          text2="Save your favorites easily and always have something to watch."
+          Heading="Download your shows to watch offline"
+          Detail_para="Save your favorites easily and always have something to watch."
         />
         <Card
           image="./Images/feature-3.png"
-          text="Watch everywhere"
-          text2="Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV."
+          Heading="Watch everywhere"
+          Detail_para="Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV."
         />
         <Card
           isImageRight={false}
           image="./Images/feature-4.png"
-          text="Create profiles for kids"
-          text2="Send children on adventures with their favorites characters in a space made just for them—free with your membership."
+          Heading="Create profiles for kids"
+          Detail_para="Send children on adventures with their favorites characters in a space made just for them—free with your membership."
         />
       </div>
       <Footer />

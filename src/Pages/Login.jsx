@@ -15,7 +15,7 @@ const Login = () => {
       navigate("/home");
     } catch (error) {
       console.log(error);
-      setError("Wrong password");
+      setError("Invalid e-mail or password");
     }
   };
   return (
